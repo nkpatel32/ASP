@@ -18,7 +18,7 @@
             Calculator<br />
         </div>
         <p>
-            <asp:TextBox ID="TextBox1" runat="server" Height="55px" Width="268px"></asp:TextBox>
+            <asp:TextBox ID="TextBox1" runat="server" Height="55px" Width="268px" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
         </p>
         <asp:Button ID="Button1" runat="server" Height="53px" OnClick="Button1_Click" Text="1" Width="70px" />
         <asp:Button ID="Button2" runat="server" Height="53px" OnClick="Button2_Click" Text="2" Width="70px" />
@@ -36,8 +36,8 @@
         <asp:Button ID="Button12" runat="server" Height="53px" OnClick="Button12_Click" Text="*" Width="70px" />
         <br />
         <asp:Button ID="Button14" runat="server" Height="53px" OnClick="Button14_Click" Text="0" Width="70px" />
-        <asp:Button ID="Button15" runat="server" Height="53px" Text="=" Width="70px" />
-        <asp:Button ID="Button16" runat="server" Height="53px" Text="clear" Width="70px" />
+        <asp:Button ID="Button15" runat="server" Height="53px" Text="=" Width="70px" OnClick="Button15_Click" />
+        <asp:Button ID="Button16" runat="server" Height="53px" Text="clear" Width="70px" OnClick="Button16_Click" />
         <asp:Button ID="Button13" runat="server" Height="53px" OnClick="Button13_Click" Text="/" Width="70px" />
         <br />
     </form>

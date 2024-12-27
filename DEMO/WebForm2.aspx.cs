@@ -21,10 +21,10 @@ namespace DEMO
                 
                 int number1 = int.Parse(TextBox1.Text);
                 int number2 = int.Parse(TextBox2.Text);
-                int number3 = int.Parse(TextBox3.Text);
+             
 
                
-                int sum = number1 + number2 + number3;
+                int sum = number1 + number2 ;
 
             
                 ResultLabel.Text = "Result: " + sum.ToString();
@@ -32,6 +32,72 @@ namespace DEMO
             catch (FormatException)
             {
               
+                ResultLabel.Text = "Please enter valid numbers!";
+            }
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+                int number1 = int.Parse(TextBox1.Text);
+                int number2 = int.Parse(TextBox2.Text);
+
+
+
+                int sum = number1 - number2;
+
+
+                ResultLabel.Text = "Result: " + sum.ToString();
+            }
+            catch (FormatException)
+            {
+
+                ResultLabel.Text = "Please enter valid numbers!";
+            }
+        }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+                int number1 = int.Parse(TextBox1.Text);
+                int number2 = int.Parse(TextBox2.Text);
+
+
+
+                int sum = number1 * number2;
+
+
+                ResultLabel.Text = "Result: " + sum.ToString();
+            }
+            catch (FormatException)
+            {
+
+                ResultLabel.Text = "Please enter valid numbers!";
+            }
+        }
+
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+                int number1 = int.Parse(TextBox1.Text);
+                int number2 = int.Parse(TextBox2.Text);
+
+
+
+                int sum = number1 / number2;
+
+
+                ResultLabel.Text = "Result: " + sum.ToString();
+            }
+            catch (FormatException)
+            {
+
                 ResultLabel.Text = "Please enter valid numbers!";
             }
         }

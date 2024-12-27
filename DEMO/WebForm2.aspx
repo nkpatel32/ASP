@@ -13,9 +13,11 @@
             <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox><br /><br />
             <asp:Label ID="Label2" runat="server" Text="Enter Second Number: "></asp:Label>
             <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox><br /><br />
-            <asp:Label ID="Label3" runat="server" Text="Enter Third Number: "></asp:Label>
-            <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox><br /><br />
-            <asp:Button ID="Button1" runat="server" Text="Add Numbers" OnClick="Button1_Click" /><br /><br />
+            <asp:Button ID="Button1" runat="server" Text="Add" OnClick="Button1_Click" Width="60px" />
+            <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Sub" />
+            <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Mul" />
+            <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="Div" />
+            <br /><br />
             <asp:Label ID="ResultLabel" runat="server" Text="Result: "></asp:Label>
         </p>
     </form>
