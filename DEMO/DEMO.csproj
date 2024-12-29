@@ -69,11 +69,12 @@
   <ItemGroup>
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
-    <Content Include="WebForm2.aspx" />
-    <Content Include="WebForm3.aspx" />
+    <Content Include="assignment1.3.aspx" />
+    <Content Include="calculator.aspx" />
     <Content Include="assignment1.1.aspx" />
     <Content Include="assignment1.2.aspx" />
     <Content Include="Mainpage.aspx" />
+    <Content Include="assignment1.4.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -84,19 +85,19 @@
     <Compile Include="WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm2.aspx.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
+    <Compile Include="assignment1.3.aspx.cs">
+      <DependentUpon>assignment1.3.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm2.aspx.designer.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
+    <Compile Include="assignment1.3.aspx.designer.cs">
+      <DependentUpon>assignment1.3.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm3.aspx.cs">
-      <DependentUpon>WebForm3.aspx</DependentUpon>
+    <Compile Include="calculator.aspx.cs">
+      <DependentUpon>calculator.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm3.aspx.designer.cs">
-      <DependentUpon>WebForm3.aspx</DependentUpon>
+    <Compile Include="calculator.aspx.designer.cs">
+      <DependentUpon>calculator.aspx</DependentUpon>
     </Compile>
     <Compile Include="assignment1.1.aspx.cs">
       <DependentUpon>assignment1.1.aspx</DependentUpon>
@@ -118,6 +119,13 @@
     </Compile>
     <Compile Include="Mainpage.aspx.designer.cs">
       <DependentUpon>Mainpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="assignment1.4.aspx.cs">
+      <DependentUpon>assignment1.4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="assignment1.4.aspx.designer.cs">
+      <DependentUpon>assignment1.4.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

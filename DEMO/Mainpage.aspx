@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Custom Navbar with Assignments</title>
+    <title>ASP.NET ASSIGNMENTS</title>
     <style>
         :root {
             --gradient-start: #ed6ea0;
@@ -127,8 +127,10 @@
                     <li class="menu-item">
                         <a href="#">Assignment 1</a>
                         <ol class="sub-menu">
-                            <li class="menu-item"><a href="WebForm1.aspx">1.1</a></li>
-                            <li class="menu-item"><a href="WebForm1.aspx">1.2</a></li>
+                            <li class="menu-item"><a href="assignment1.1.aspx">1.1</a></li>
+                            <li class="menu-item"><a href="assignment1.2.aspx">1.2</a></li>
+                             <li class="menu-item"><a href="assignment1.3.aspx">1.3</a></li>
+                             <li class="menu-item"><a href="assignment1.4.aspx">1.4</a></li>
                         </ol>
                     </li>
                     <li class="menu-item">
