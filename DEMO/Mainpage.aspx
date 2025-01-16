@@ -136,8 +136,8 @@
                     <li class="menu-item">
                         <a href="#">Assignment 2</a>
                         <ol class="sub-menu">
-                            <li class="menu-item"><a href="#">2.1</a></li>
-                            <li class="menu-item"><a href="#">2.2</a></li>
+                            <li class="menu-item"><a href="assignment2.1">2.1</a></li>
+                            <li class="menu-item"><a href="assignment2.2">2.2</a></li>
                         </ol>
                     </li>
                     <li class="menu-item">

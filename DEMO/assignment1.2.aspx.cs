@@ -30,7 +30,7 @@ namespace DEMO
 
                 if (fromUnit == toUnit)
                 {
-                    result = inputValue; // No conversion needed
+                    result = inputValue; 
                     Label2.Text = $"{inputValue} {fromUnit} = {result} {toUnit}";
                     return;
                 }
@@ -39,27 +39,27 @@ namespace DEMO
                 {
                     case "Celsius":
                         if (toUnit == "Fahrenheit")
-                            result = (inputValue * 9 / 5) + 32; // Celsius to Fahrenheit
+                            result = (inputValue * 9 / 5) + 32;
                         else if (toUnit == "Kelvin")
-                            result = inputValue + 273.15; // Celsius to Kelvin
+                            result = inputValue + 273.15; 
                         else
                             throw new Exception("Invalid conversion.");
                         break;
 
                     case "Fahrenheit":
                         if (toUnit == "Celsius")
-                            result = (inputValue - 32) * 5 / 9; // Fahrenheit to Celsius
+                            result = (inputValue - 32) * 5 / 9; 
                         else if (toUnit == "Kelvin")
-                            result = (inputValue - 32) * 5 / 9 + 273.15; // Fahrenheit to Kelvin
+                            result = (inputValue - 32) * 5 / 9 + 273.15; 
                         else
                             throw new Exception("Invalid conversion.");
                         break;
 
                     case "Kelvin":
                         if (toUnit == "Celsius")
-                            result = inputValue - 273.15; // Kelvin to Celsius
+                            result = inputValue - 273.15; 
                         else if (toUnit == "Fahrenheit")
-                            result = (inputValue - 273.15) * 9 / 5 + 32; // Kelvin to Fahrenheit
+                            result = (inputValue - 273.15) * 9 / 5 + 32; 
                         else
                             throw new Exception("Invalid conversion.");
                         break;
@@ -68,7 +68,7 @@ namespace DEMO
                         throw new Exception("Invalid unit selection.");
                 }
 
-                // Display the conversion result
+                
                 Label2.Text = $"{inputValue} {fromUnit} = {result:F2} {toUnit}";
             }
             catch (FormatException)
